@@ -21,10 +21,9 @@ def draw_circle_points(points, radius=1, centerX=0, centerY=0):
     return final_points
     
 
-def connectomme_lines(connectome, hardness=0.3):
+def connectomme_lines(connectome, hardness=0.5):
     number_of_areas = connectome.shape[0]
     positions = draw_circle_points(number_of_areas)
- 
     final_positions = []
     area_name = []
  
